@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="284px" height="634px" viewBox="0 0 284 634" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval Copy 3</title>
+    <defs>
+        <filter x="-22.6%" y="-22.6%" width="145.3%" height="145.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="35" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="Desktop-HD-Copy-9" transform="translate(-1156.000000, -570.000000)" fill="#0091FF">
+            <circle id="Oval-Copy-3" filter="url(#filter-1)" cx="1475" cy="887" r="232"></circle>
+        </g>
+    </g>
+</svg>
