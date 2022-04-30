@@ -15,7 +15,7 @@ const Faq = () => {
                             <Accordion>
                                 <div className='b_collapse'>
                                     <Accordion.Item eventKey="0" >
-                                        <Accordion.Header>What is Veexo</Accordion.Header>
+                                        <Accordion.Header>What is Crowdbux</Accordion.Header>
                                         <Accordion.Body>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed parturient platea velit vulputate vivamus donec feugiat. Sed cursus vitae ipsum urna, egestas pharetra auctor. Tristique commodo egestas erat varius enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed parturient platea velit vulputate vivamus donec feugiat. Sed cursus vitae ipsum urna, egestas pharetra auctor. Tristique commodo egestas erat varius enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed parturient platea velit vulputate vivamus donec feugiat. Sed cursus vitae ipsum urna, egestas pharetra auctor. Tristique commodo egestas erat varius enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus sed parturient platea velit vulputate vivamus donec feugiat.
                                         </Accordion.Body>

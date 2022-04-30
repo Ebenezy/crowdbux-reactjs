@@ -63,10 +63,12 @@ const Footer = () => {
                         <Col md={3} className="mb-3">
                             <div className="footer-right">
                                 <p className="footer-title">Office Address</p>
-                                <p className="footer-subtitle">Lagos:</p>
-                                <p className="footer-text">
-                                    Lagos Mainland, Lagos
-                                </p>
+                                <div className='mb-3'>
+                                    <p className="footer-subtitle">Lagos:</p>
+                                    <p className="footer-text">
+                                        Lagos Mainland, Lagos
+                                    </p>
+                                </div>
                                 <p className="footer-subtitle">USA:</p>
                                 <p className="footer-text">
                                     Carlifonia, USA
@@ -76,8 +78,10 @@ const Footer = () => {
                         <Col md={2} className="mb-3">
                             <div className="footer-right">
                                 <p className="footer-title">Contact</p>
-                                <p className="footer-subtitle">Phone:</p>
-                                <a href="tel:(470)6583773" className="footer-text">(080) 0000 0000 </a>
+                                <div className='mb-3'>
+                                    <p className="footer-subtitle">Phone:</p>
+                                    <a href="tel:2348000000000" className="footer-text">(080) 0000 0000 </a>
+                                </div>
                                 <p className="footer-subtitle">Email:</p>
                                 <a
                                     href="mailto:hello@crowdbux.com"

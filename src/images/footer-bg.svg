@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="482px" height="282px" viewBox="0 0 482 282" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="482" height="282"></rect>
+        <path d="M91.5419745,18.5419745 L390.458026,18.5419745 C430.774812,18.5419745 463.458026,51.2251878 463.458026,91.5419745 L463.458026,390.458026 C463.458026,430.774812 430.774812,463.458026 390.458026,463.458026 L91.5419745,463.458026 C51.2251878,463.458026 18.5419745,430.774812 18.5419745,390.458026 L18.5419745,91.5419745 C18.5419745,51.2251878 51.2251878,18.5419745 91.5419745,18.5419745 Z" id="path-3"></path>
+        <path d="M91.5419745,18.5419745 L390.458026,18.5419745 C430.774812,18.5419745 463.458026,51.2251878 463.458026,91.5419745 L463.458026,390.458026 C463.458026,430.774812 430.774812,463.458026 390.458026,463.458026 L91.5419745,463.458026 C51.2251878,463.458026 18.5419745,430.774812 18.5419745,390.458026 L18.5419745,91.5419745 C18.5419745,51.2251878 51.2251878,18.5419745 91.5419745,18.5419745 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-9" transform="translate(-958.000000, -5798.000000)">
+            <g id="Group" transform="translate(958.000000, 5798.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g opacity="0.5" mask="url(#mask-2)">
+                    <g transform="translate(7.000000, 20.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3" transform="translate(241.000000, 241.000000) rotate(-5.000000) translate(-241.000000, -241.000000) "></use>
+                        </mask>
+                        <use id="Mask-Copy" stroke="none" fill="#D5C9FF" fill-rule="evenodd" transform="translate(241.000000, 241.000000) rotate(-5.000000) translate(-241.000000, -241.000000) " xlink:href="#path-3"></use>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5" transform="translate(241.000000, 241.000000) rotate(15.000000) translate(-241.000000, -241.000000) "></use>
+                        </mask>
+                        <use id="Mask-Copy-4" stroke="none" fill="#AC95FF" fill-rule="evenodd" transform="translate(241.000000, 241.000000) rotate(15.000000) translate(-241.000000, -241.000000) " xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
