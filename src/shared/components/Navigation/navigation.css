@@ -1,0 +1,44 @@
+.logo {
+    width: 210px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.loginLink {
+    font-family: Poppins-SemiBold !important;
+    font-size: 16px;
+    color: #6236FF !important;
+    letter-spacing: 0;
+}
+
+.getintouch-btn {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    background: #6236FF;
+    border: 1px solid #6236FF;
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+}
+
+.getintouch-btn img {
+    margin-left: 10px;
+}
+
+@media (min-width: 240px) and (max-width: 767px) {
+    .navbar-brand img {
+        width: 140px;
+    }
+}
