@@ -65,7 +65,11 @@ const Footer = () => {
                                 <p className="footer-title">Office Address</p>
                                 <p className="footer-subtitle">Lagos:</p>
                                 <p className="footer-text">
-                                    Lasgos Mainland, Lagos
+                                    Lagos Mainland, Lagos
+                                </p>
+                                <p className="footer-subtitle">USA:</p>
+                                <p className="footer-text">
+                                    Carlifonia, USA
                                 </p>
                             </div>
                         </Col>
@@ -73,7 +77,7 @@ const Footer = () => {
                             <div className="footer-right">
                                 <p className="footer-title">Contact</p>
                                 <p className="footer-subtitle">Phone:</p>
-                                <a href="tel:(470)6583773" className="footer-text">(470) 658 3773 </a>
+                                <a href="tel:(470)6583773" className="footer-text">(080) 0000 0000 </a>
                                 <p className="footer-subtitle">Email:</p>
                                 <a
                                     href="mailto:hello@crowdbux.com"
