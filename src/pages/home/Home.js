@@ -4,14 +4,20 @@ import Navigation from '../../shared/components/Navigation/Navigation'
 import mail from '../../images/icons/mail.svg'
 import smilingLady from '../../images/happy-girl.png'
 import HeroGradientBg from './component/HeroGradientBg'
-import AppBenefits from './component/AppBenefits'
+import AppFeatures from './component/AppFeatures'
 import TheMobileApp from './component/TheMobileApp'
 import Faq from './component/Faq'
 import Footer from '../../shared/components/footer/Footer'
+// import SubscribeModal from './component/SubscribeModal'
 
 const Home = () => {
+    // componentDidMount() {
+    //     window.scrollTo(0, 0);
+    // }
+    // const [modalShow, setModalShow] = React.useState(false);
     return (
         <div>
+            {/* <div ref={this.myRef}></div> */}
             <div className='hero-section'>
                 <Navigation />
                 <div className='hero-inner'>
@@ -28,8 +34,7 @@ const Home = () => {
                                                 <Col md={8}>
                                                     <p className="hero-subtitle">Loans. Loans. Loans</p>
                                                     <p className="hero-text">quia voluptas sit aspernatur aut odit aut fugit,  eos qui rati quia voluptas sit aspernatur</p>
-                                                    <div
-                                                        className="subscribe_btn hvr-icon-wobble-horizontal">
+                                                    <div className="subscribe_btn hvr-icon-wobble-horizontal">
                                                         Join our waiting list
                                                         <img src={mail} alt="next" className="hvr-icon" />
                                                     </div>
@@ -50,7 +55,11 @@ const Home = () => {
                 </div>
                 <div></div>
             </div>
-            <AppBenefits />
+            {/* <SubscribeModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            /> */}
+            <AppFeatures />
             <TheMobileApp />
             <Faq />
             <Footer />

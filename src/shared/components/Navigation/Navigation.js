@@ -16,11 +16,10 @@ export default class Navigation extends Component {
                         <Navbar.Brand as={Link} to="/"><img src={logo} alt="dexter logo" className='logo' /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav
-                                className="ms-auto my-2 my-lg-0"
-                            >
-                                <Nav.Link as={Link} to="/">Mobile App</Nav.Link>
-                                <Nav.Link as={Link} to="/">Features</Nav.Link>
+                            <Nav className="ms-auto my-2 my-lg-0">
+                                <Nav.Link href="#appFeatures">Features</Nav.Link>
+                                <Nav.Link href="#mobileapp">Mobile App</Nav.Link>
+                                <Nav.Link href="#faq">FAQ</Nav.Link>
                                 <Nav.Link className='loginLink' as={Link} to="/">Login/Sign up</Nav.Link>
                                 <Button className='getintouch-btn' as={Link} to='/'>Become a vendor <span><img src={mail} alt="dexter logo" className='' width={22} /></span></Button>
                             </Nav>

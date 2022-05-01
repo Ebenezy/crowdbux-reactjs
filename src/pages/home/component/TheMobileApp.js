@@ -10,7 +10,7 @@ import playstore from '../../../images/playstore.svg'
 
 const TheMobileApp = () => {
     return (
-        <div className="future-section">
+        <div id='mobileapp' className="future-section">
             <Container>
                 <div className='text-center  mb-5'>
                     <h1 className='section-title'>Our mobile app is on the way</h1>

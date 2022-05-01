@@ -251,7 +251,7 @@ a:focus {
 }
 
 .app-image img {
-  width: 100%;
+  width: 90%;
 }
 
 /* The Mobile App styling */
@@ -312,13 +312,13 @@ a:focus {
   border-radius: 15px;
   font-family: Poppins-Medium;
   font-size: 15px;
-  color: #135808;
+  color: #6236FF;
   letter-spacing: 0;
   padding: 0.9rem 1.2rem;
 }
 
 .partner-btn:hover {
-  border: 2px solid #299617;
+  border: 2px solid #6236FF;
   opacity: 0.8;
 }
 
@@ -521,6 +521,18 @@ a:focus {
   color: #989898;
   letter-spacing: 0;
   margin-bottom: 0.6rem;
+}
+
+.accordion-body a {
+  text-decoration: none;
+  font-family: Poppins-Regular;
+  font-size: 13px;
+  color: #989898;
+}
+
+.accordion-body a:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
 /* floating animation styling */
