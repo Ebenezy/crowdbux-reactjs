@@ -20,8 +20,10 @@ export default class Navigation extends Component {
                                 <Nav.Link href="#appFeatures">Features</Nav.Link>
                                 <Nav.Link href="#mobileapp">Mobile App</Nav.Link>
                                 <Nav.Link href="#faq">FAQ</Nav.Link>
-                                <Nav.Link className='loginLink' as={Link} to="/">Login/Sign up</Nav.Link>
-                                <Button className='getintouch-btn' as={Link} to='/'>Become a vendor <span><img src={mail} alt="dexter logo" className='' width={22} /></span></Button>
+                                <Nav.Link className='loginLink' as={Link} to="/">Login</Nav.Link>
+                                {/* <iframe class="formlets-iframe" src="https://www.formlets.com/forms/EibrIkdhyqrItSo1/?iframe=true&nofocus=y"
+                                    frameborder="0" width="100%"></iframe> */}
+                                <Button className='getintouch-btn' as={Link} to='/'>Become a vendor <span><img src={mail} alt="mail" className='' width={22} /></span></Button>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

@@ -9,14 +9,14 @@ const Faq = () => {
                     <h1 className='section-title'>Frequently Asked Questions</h1>
                     <p className='section-subtitle'>Get answers to your questions and challenges</p>
                 </div>
-                <div >
+                <div>
                     <Row>
                         <Col md={9} className='mx-auto'>
                             <p className='section-subtitle'>General</p>
                             <Accordion>
                                 <div className='b_collapse'>
                                     <Accordion.Item eventKey="0" >
-                                        <Accordion.Header>What is Crowdbux</Accordion.Header>
+                                        <Accordion.Header>What is Crowdbux?</Accordion.Header>
                                         <Accordion.Body>
                                             <p>Crowdbux is Nigeria’s most efficient and inclusive digital platform for loan matching and credit building.</p>
 
@@ -50,7 +50,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="3">
                                         <Accordion.Header>How do I become a vendor?</Accordion.Header>
                                         <Accordion.Body>
-                                            Nothing is easier on the platform, just click the become a vendor button, fill out a short form and a vendor relations representative will contact you within 24hrs.
+                                            <p>Nothing is easier on the platform, just click the become a vendor button, fill out a short form and a vendor relations representative will contact you within 24hrs.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>
@@ -58,7 +58,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="4">
                                         <Accordion.Header>Who is a Crowdbux citizen? </Accordion.Header>
                                         <Accordion.Body>
-                                            They are you and you are them, once you have fully completed your registration on the Crowdbux platform, you automatically become a Crowdbux citizen.
+                                            <p>They are you and you are them, once you have fully completed your registration on the Crowdbux platform, you automatically become a Crowdbux citizen.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>
@@ -66,7 +66,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="5">
                                         <Accordion.Header>What is Crowdbux safety score?</Accordion.Header>
                                         <Accordion.Body>
-                                            This is a general credit assessment based on the validity of the data that you input and upload in your credit profile.
+                                            <p>This is a general credit assessment based on the validity of the data that you input and upload in your credit profile.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>
@@ -74,7 +74,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="6">
                                         <Accordion.Header>What is Crowdbux credit line?</Accordion.Header>
                                         <Accordion.Body>
-                                            A line of credit starting from 10,000 up to 5M, and is strictly dependent on your credit assessment.
+                                            <p>A line of credit starting from 10,000 up to 5M, and is strictly dependent on your credit assessment.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>
@@ -82,7 +82,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="7">
                                         <Accordion.Header>Do lenders know me?</Accordion.Header>
                                         <Accordion.Body>
-                                            Not until you have requested for a loan do lenders receive any information about you or your request.
+                                            <p>Not until you have requested for a loan do lenders receive any information about you or your request.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>
@@ -90,7 +90,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="8">
                                         <Accordion.Header>Do other borrowers know me?</Accordion.Header>
                                         <Accordion.Body>
-                                            Absolutely not, they do not also have access to your personal information or data, so be rest assured of privacy when using Crowdbux.
+                                            <p>Absolutely not, they do not also have access to your personal information or data, so be rest assured of privacy when using Crowdbux.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>
@@ -112,7 +112,7 @@ const Faq = () => {
                                     <Accordion.Item eventKey="10">
                                         <Accordion.Header>Is Crowdbux regulated?</Accordion.Header>
                                         <Accordion.Body>
-                                            Yes, crowdbux is fully regulated under the relevant laws and regulations guiding the operations of digital finance in Nigeria. So rest assured, your data and any other information you trust us with is safe.
+                                            <p>Yes, crowdbux is fully regulated under the relevant laws and regulations guiding the operations of digital finance in Nigeria. So rest assured, your data and any other information you trust us with is safe.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </div>

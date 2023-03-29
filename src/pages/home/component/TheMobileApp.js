@@ -36,11 +36,12 @@ const TheMobileApp = () => {
                                         <div className="the-future-future">
                                             <div className="crowdbux-texts">
                                                 <p className="crowdbux-future-text1">
-                                                    Lorem ipsum dolor sit amet,
+                                                    Get Crowdbux, there's always a unique
+                                                    offering
                                                 </p>
                                                 <h1 className="crowdbux-future-title">For everyone</h1>
                                                 <p className="crowdbux-future-text2">
-                                                    Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                                    Let's give you back full control of your credit life with the best loan environment in Nigeria
                                                 </p>
                                                 <div className="store-buttons">
                                                     <button

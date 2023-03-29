@@ -6,41 +6,98 @@
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
+  <meta name="description"
+    content="Build Your Creditline, Get Fast Access To Loans & Make Better Borrowing Decisions. Get matched. Compare rates. Save money. You can become invisible to financial struggles and get fast access to loans on Crowdbux. In a few easy steps, you are well on your way to getting that specific loan you urgently need." />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <meta name="author" content="Crowdbux.">
-  <meta name="description" content="Crowdbux">
-  <meta name="keywords" content="Crowdbux">
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+  <meta name="keywords" content="Crowdbux, Get matched. Compare rates. Save money.">
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+  <!-- START - We recommend to place the below code in head tag of your website html  -->
+  <style>
+    @font-face {
+      font-display: block;
+      font-family: Roboto;
+      src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+    }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    @font-face {
+      font-display: fallback;
+      font-family: Roboto;
+      font-weight: 600;
+      src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+    }
+
+    @font-face {
+      font-display: fallback;
+      font-family: Roboto;
+      font-weight: 700;
+      src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+    }
+
+    #sib-container input:-ms-input-placeholder {
+      text-align: left;
+      font-family: "Lucida Grande", sans-serif;
+      color: #c0ccda;
+    }
+
+    #sib-container input::placeholder {
+      text-align: left;
+      font-family: "Lucida Grande", sans-serif;
+      color: #c0ccda;
+    }
+
+    #sib-container textarea::placeholder {
+      text-align: left;
+      font-family: "Lucida Grande", sans-serif;
+      color: #c0ccda;
+    }
+  </style>
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+  <!--  END - We recommend to place the above code in head tag of your website html -->
   <title>Crowdbux</title>
 </head>
 
 <body>
+  <!-- Begin Sendinblue Form -->
+  <script>
+    function handleCaptchaResponse() {
+      var event = new Event('captchaChange');
+      document.getElementById('sib-captcha').dispatchEvent(event);
+    }
+  </script>
+
+  <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+  <script>
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.LOCALE = 'en';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+    window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+    window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+    window.translation = {
+      common: {
+        selectedList: '{quantity} list selected',
+        selectedLists: '{quantity} lists selected'
+      }
+    };
+
+    var AUTOHIDE = Boolean(0);
+  </script>
+  <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
+  <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+
+  <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
+  <!-- End Sendinblue Form -->
+
+  <!-- Login snippet  -->
+  <script type="text/javascript" src="https://www.formlets.com/static/js/iframeResizer.min.js"></script>
+
+  <script type="text/javascript" src="https://www.formlets.com/static/js/iframe.js"></script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
 </body>
 
 </html>

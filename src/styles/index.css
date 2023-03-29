@@ -94,23 +94,23 @@ a:focus {
 
 .hero-title {
   font-family: Poppins-Bold;
-  font-size: 56px;
+  font-size: 42px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 69px;
+  line-height: 55px;
   margin-bottom: 0;
 }
 
 .hero-subtitle {
   font-family: Poppins-SemiBold;
-  font-size: 38px;
+  font-size: 25px;
   color: #151E30;
   letter-spacing: 0;
 }
 
 .hero-text {
   font-family: Poppins-Regular;
-  font-size: 18px;
+  font-size: 17px;
   color: #6D6D6D;
   letter-spacing: 0;
 }

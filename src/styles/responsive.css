@@ -16,12 +16,12 @@
     }
 
     .hero-title {
-        font-size: 33px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 32px;
     }
 
     .hero-subtitle {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .hero-text {
@@ -115,12 +115,12 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .hero-title {
-        font-size: 43px;
-        line-height: 53px;
+        font-size: 34px;
+        line-height: 48px;
     }
 
     .hero-subtitle {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .hero-text {
